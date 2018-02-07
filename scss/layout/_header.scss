@@ -1,0 +1,39 @@
+/* Header/Nav ------------- */
+
+.header {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #393939;
+  color: $color-text-light;
+  padding: 15px 0;
+
+  a {
+    color: $color-text-light;
+    font-weight: bold;
+
+    &:hover {
+      @include slowHover;
+      color: #ff5a09;
+    }
+  }
+
+.navigation {
+  margin-left: auto;
+  margin-right: 20px;
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        padding: 0 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+/* Base element styles ------------- */
+
+body {
+  background-color: $color-body;
+  color: $color-text-dark;
+  font: 1em/1.5 $stack-open-sans;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  margin: 10px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #2a1daa;
+}
+
+h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.documents {
+  a {
+    display: block;
+  }
+}
+
+.title {
+  text-align: center;
+}
+
+.selected {
+  color: #ff5a09 !important;
+}
+
+
+.clearfix:after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+}

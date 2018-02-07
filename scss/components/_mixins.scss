@@ -1,0 +1,5 @@
+@mixin slowHover() {
+  -moz-transition: all .3s ease .1s;
+  -webkit-transition: all .3s ease .1s;
+  transition: all .3s ease .1s;
+}

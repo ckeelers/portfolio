@@ -1,0 +1,23 @@
+
+// Descriptive color variables
+
+$white          : #fff;
+$black          : #000;
+$grey           : #878787;
+
+// Functional color variables
+
+$color-text-dark      : $black;
+$color-text-light     : $white;
+
+$color-body           : $white;
+
+// Font stacks
+
+$stack-sans-serif     : Helvetica, arial, sans-serif;
+$stack-open-sans      : "Open Sans", $stack-sans-serif;
+$stack-palanquin      : "Palanquin", $stack-sans-serif;
+
+// Image path
+
+$imgPath: "~/assets/images";
