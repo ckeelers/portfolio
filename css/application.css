@@ -2,12 +2,13 @@
 body {
   background-color: #fff;
   color: #000;
-  font: 1em/1.5 "Open Sans", Helvetica, arial, sans-serif;
+  font: 1rem/1.5 "Open Sans", Helvetica, arial, sans-serif;
   margin: 0;
   padding: 0; }
 
 img {
-  margin: 10px auto; }
+  margin: 10px auto;
+  width: 100%; }
 
 a {
   text-decoration: none;
@@ -15,7 +16,7 @@ a {
 
 h2 {
   margin: 0;
-  font-size: 16px; }
+  font-size: 1rem; }
 
 .documents a {
   display: block; }
@@ -63,7 +64,8 @@ h2 {
         padding: 0 5px; }
 
 .wrap {
-  margin: 0 auto; }
+  margin: 1rem auto;
+  padding: 1rem; }
 
 .main-content {
   margin: 0 auto;
@@ -72,11 +74,11 @@ h2 {
     text-align: center; }
 
 .box {
-  margin: 10px auto;
-  padding: 10px;
+  margin: 1rem auto;
+  padding: 1rem;
   max-width: 600px;
   border: 1px solid #e1e1e1;
-  border-radius: 5px;
+  border-radius: .5rem;
   text-align: left; }
 
 /*# sourceMappingURL=application.css.map */

@@ -3,13 +3,14 @@
 body {
   background-color: $color-body;
   color: $color-text-dark;
-  font: 1em/1.5 $stack-open-sans;
+  font: 1rem/1.5 $stack-open-sans;
   margin: 0;
   padding: 0;
 }
 
 img {
   margin: 10px auto;
+  width: 100%;
 }
 
 a {
@@ -19,7 +20,7 @@ a {
 
 h2 {
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .documents {
