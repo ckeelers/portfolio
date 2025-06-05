@@ -78,8 +78,10 @@ h2 {
 }
 
 .wrap {
-  margin: 1rem auto;
+  margin: 0 auto;
   padding: 1rem;
+  background-color: #FAF9F6;
+  max-width: 800px;
 }
 
 .container {
