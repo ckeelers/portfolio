@@ -2,7 +2,7 @@
 body {
   background-color: #fff;
   color: #000;
-  font: 0.75rem/1 "Open Sans", Helvetica, arial, sans-serif;
+  font: 1rem/1.5 "Nunito+Sans", Helvetica, arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -89,7 +89,7 @@ h2 {
 
 .main-content {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 960px;
 }
 .main-content img {
   text-align: center;
